@@ -142,6 +142,7 @@ public class StepDefinition {
 	public void delete_expense_or_Income_with_invalid_transaction_Id(String invalidTransactionId) {
 
 		transactionId_delete = invalidTransactionId;
+		System.out.println(transactionId_delete);
 	}
 
 }
