@@ -13,6 +13,7 @@ Examples:
 	|-10000	|Rent			|
 	|-8000	|Food			|
 	|-5000	|Misc			|
+	|+5000	|Investment		|
     
 Scenario Outline: Verify is expense/Income is successfully deleted using DeleteExpenseAPI
 	Given Get transactions using "GetExpenseAPI" and delete expense or Income with "<transactionName>"
